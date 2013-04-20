@@ -1,0 +1,88 @@
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+body{font-size:11px;font-family:helvetica,arial,sans-serif;}
+
+.navigation{list-style:none;margin:0;padding:0;}
+.selected{font-weight:700;}
+#key li{display:block;width:100px;height:10px;padding:5px;margin:0 0 5px 0;}
+
+#container{width:850px;margin:15px auto 0;}
+#site-footer{text-align:right;color:#666;margin:15px 0 60px 0;}
+#site-footer p{margin:0 0 5px;}
+#site-header{height:100px;}
+#site-main{overflow:hidden;padding:15px 0;}
+#action:hover{text-decoration:underline;cursor:pointer;}
+#content{width:747px;float:left;display:inline;}
+#cover{position:relative;}
+
+#title{font-family: 'Arvo';font-style:italic;font-size:18px;}
+
+#authors,#author li{list-style:none;padding:0;margin:0;}
+
+#logo{width:50%;height:inherit;float:left;display:inline;background:no-repeat;}
+#navigation-top{width:50%;float:left;display:inline;text-align:right;color:#666;margin:15px 0 0;}
+#navigation-top .navigation li{display:inline;margin:0 5px;}
+#overlay{position:absolute;right:0;bottom:35px;display:block;font-weight:700;font-size:9px;padding:10px;}
+#preload{display:none;}
+#sidebar{width:88px;float:left;display:inline;text-align:right;line-height:21px;margin:0 15px 0 0;}
+
+#inverted{background:#000;}
+
+#inverted #logo{background-image:url('logo_inverted.png');}
+#inverted #overlay{background:#000;color:#fff;}
+#inverted #site-main{border-top:solid 1px #3A2D80;border-bottom:solid 1px #3A2D80;color:#fff;}
+#inverted a,#inverted #action{color:#F6F;}
+#inverted .green{background:#f266b7;}
+#inverted .olive{background:#5a32c6;}
+#inverted .yellow{background:#34349b;}
+#inverted .pink{background:#38874f;}
+
+
+#normal{background:#fff;}
+#normal #logo{background-image:url('logo_normal.png');}
+#normal #overlay{background:#fff;color:#000;}
+#normal #site-main{border-top:solid 1px #C5D27F;border-bottom:solid 1px #C5D27F;color:#000;}
+#normal a,#normal #action{color:#090;}
+#normal .green{background:#0D9948;}
+#normal .olive{background:#A5CD39;}
+#normal .yellow{background:#CBCB64;}
+#normal .pink{background:#C778B0;}
+
+#home-image{width:747px;height:280px;}
+#inverted #home-image{background-image:url('home_inverted_747.jpg');}
+#normal #home-image{background-image:url('home_normal_747.jpg');}
+
+#clean-up-image{width:747px;height:536px;}
+#inverted #clean-up-image{background-image:url('clean_up_inverted_747.png');}
+#normal #clean-up-image{background-image:url('clean_up_normal_747.png');}
+
+#damage-image{width:747px;height:571px;}
+#inverted #damage-image{background-image:url('damage_inverted_747.png');}
+#normal #damage-image{background-image:url('damage_normal_747.png');}
+
+#wild-life-image{width:747px;height:747px;}
+#inverted #wild-life-image{background-image:url('wild_life_inverted_747.png');}
+#normal #wild-life-image{background-image:url('wild_life_normal_747.png');}
+
+#response-image{width:747px;height:726px;}
+#inverted #response-image{background-image:url('response_inverted_747.png');}
+#normal #response-image{background-image:url('response_normal_747.png');}
+
+#oil-spilled-image{width:747px;height:634px;}
+#inverted #oil-spilled-image{background-image:url('oil_spilled_inverted_747.png');}
+#normal #oil-spilled-image{background-image:url('oil_spilled_normal_747.png');}
+
+#media-response-image{width:747px;height:734px;}
+#inverted #media-response-image{background-image:url('media_response_inverted_747.png');}
+#normal #media-response-image{background-image:url('media_response_normal_747.png');}
+
+#site-header,
+#navigation-top,
+.navigation{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none; /* moz- prefix required for older version of firefox*/
+    -ms-user-select: none;
+    user-select: none;
+}
